@@ -15,13 +15,15 @@ const prompts = ["Wow I can't believe you made it this far",
 				"where could this picture be?",
 				"And how can you decode the image? Is there a way to decode an image to text?",
 				"Click next for a hint",
-				"http://stylesuxx.github.io/steganography/"];
+				"http://stylesuxx.github.io/steganography/",
+			"Oh and once you get there",
+		"Enter the pass here: https://ashchu.github.io/complete/"];
 
 class Textbox extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {text: prompts,
-					  max: 16,
+					  max: 18,
 					  index: 0
 					 };
 
